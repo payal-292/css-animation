@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: black;
+        }
+        .parent{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        ul {
+            display: flex;
+            border-bottom: 10px solid white;
+            /* animation: bouncy 1s infinite linear; */
+            transform: rotate(360deg);
+        }
+        div ul li {
+            background-color: black;
+            height: 60px;
+            width: 60px; 
+            list-style: none;
+            margin: 0px 30px;
+            border-radius: 50%;
+            animation: bouncy 1s infinite linear;
+    }
+    div ul li:nth-child(1){
+        animation-delay: 0.2s;
+        background-image: linear-gradient(aqua, rgb(111, 237, 163), aqua, blue);
+    }
+    div ul li:nth-child(2){
+        animation-delay: 0.4s;
+        background-image: linear-gradient(pink,purple, pink, red);
+    }
+    div ul li:nth-child(3){
+        animation-delay: 0.6s;
+        background-image: linear-gradient(green, rgb(149, 243, 123), green, aqua);
+    }
+    div ul li:nth-child(4){
+        animation-delay: 0.8s;
+        background-image: linear-gradient(maroon, rgb(243, 72, 72), red);
+    }
+    div ul li:nth-child(5){
+        animation-delay: 0.10s;
+        background-image: linear-gradient(blue, rgb(101, 55, 238), blue);
+    }
+    div ul li:nth-child(6){
+        animation-delay: 0.8s;
+        background-image: linear-gradient(aqua, rgb(111, 237, 163), aqua, blue);
+    }
+    div ul li:nth-child(7){
+        animation-delay: 0.6s;
+        background-image: linear-gradient(maroon, rgb(243, 72, 72), red);
+    }
+    div ul li:nth-child(8){
+        animation-delay: 0.4s;
+        background-image: linear-gradient(green, rgb(149, 243, 123), green, aqua);
+    }
+    div ul li:nth-child(9){
+        animation-delay: 0.2s;
+        background-image: linear-gradient(pink,purple, pink, red);
+    }
+    div ul li:nth-child(10){
+        animation-delay: 0.0s;
+        background-image: linear-gradient(aqua, rgb(111, 237, 163), aqua, blue);
+    }
+    div ul li:nth-child(11){
+        animation-delay: 0.2s;
+        background-image: linear-gradient(blue, rgb(101, 55, 238), blue);
+    }
+    div ul li:nth-child(12){
+        animation-delay: 0.4s;
+        background-image: linear-gradient(maroon, rgb(243, 72, 72), red);
+    }
+    div ul li:nth-child(13){
+        animation-delay: 0.6s;
+        background-image: linear-gradient(pink,purple, pink, red);
+    }
+    div ul li:nth-child(14){
+        animation-delay: 0.8s;
+        background-image: linear-gradient(aqua, rgb(111, 237, 163), aqua, blue);
+    }
+    div ul li:nth-child(15){
+        animation-delay: 0.10s;
+        background-image: linear-gradient(green, rgb(149, 243, 123), green, aqua);
+    }
+    div ul li:nth-child(16){
+        animation-delay: 0.12s;
+        background-image: linear-gradient(blue, rgb(101, 55, 238), blue);
+    }
+    @keyframes bouncy {
+        0%{
+            translate: 0px 0px;
+        }
+        50%{
+            translate: 0px -150px;
+        }
+        100%{
+            translate: 0px 0px;
+        }
+        150%{
+            translate: 0px -150px;
+        }
+    }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+</body>
+</html>
